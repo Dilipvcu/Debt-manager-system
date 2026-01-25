@@ -1,0 +1,82 @@
+{
+  "goal_text": "Become debt-free as soon as possible",
+  "availability": 3,
+  "experience": "beginner",
+  "tasks": [
+    {
+      "id": "t1",
+      "title": "Enable autopay for minimums",
+      "description": "Avoid late fees; protect score.",
+      "done": false,
+      "parent_id": null,
+      "depends_on": [],
+      "suggested_week": 1
+    },
+    {
+      "id": "t2",
+      "title": "List debts & verify APRs",
+      "description": "Name, balance, minimum, APR (Avalanche order).",
+      "done": false,
+      "parent_id": null,
+      "depends_on": [
+        "t1"
+      ],
+      "suggested_week": 1
+    },
+    {
+      "id": "t3",
+      "title": "Compute safe monthly extra",
+      "description": "Use Budget Assistant; confirm a sustainable number.",
+      "done": false,
+      "parent_id": null,
+      "depends_on": [
+        "t2"
+      ],
+      "suggested_week": 1
+    },
+    {
+      "id": "t4",
+      "title": "Solve required extra for target months",
+      "description": "Use the target timeline tool; align lifestyle if needed.",
+      "done": false,
+      "parent_id": null,
+      "depends_on": [
+        "t3"
+      ],
+      "suggested_week": 2
+    },
+    {
+      "id": "t5",
+      "title": "Negotiate APR/fees",
+      "description": "Call issuers to request APR reduction; document results.",
+      "done": false,
+      "parent_id": null,
+      "depends_on": [
+        "t2"
+      ],
+      "suggested_week": 2
+    },
+    {
+      "id": "t6",
+      "title": "Build $500 starter buffer",
+      "description": "Shield the plan from small surprises.",
+      "done": false,
+      "parent_id": null,
+      "depends_on": [
+        "t3"
+      ],
+      "suggested_week": 3
+    },
+    {
+      "id": "t7",
+      "title": "Weekly review & check-in",
+      "description": "Log blockers; adjust extra modestly, not to zero.",
+      "done": false,
+      "parent_id": null,
+      "depends_on": [],
+      "suggested_week": 1
+    }
+  ],
+  "monthly_extra": 200.0,
+  "credit_score": 700
+}
